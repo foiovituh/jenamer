@@ -1,22 +1,13 @@
-## :file_folder: Jenamer
-Mass file renamer developed in Java 17.
+# Jenamer :file_folder:
+Mass file renamer developed in Java 17. If you have a directory with MANY disorganized files, how much time/effort would it take to rename them one by one? Jenamer renames all files based on a template name + separator + index.
 
----
-
-### :pushpin: Objective
-Solve the following situation: you have a directory with MANY disorganized files, how much time/effort would it take to rename them one by one? Jenamer renames all files based on a template name + separator + index.
-
----
-
-### :link: Requirements
+## Requirements :link:
 - Maven
 - Java 8+
 - Windows/Linux
 - Terminal (console)
 
----
-
-### :cd: Setup
+## Setup :cd:
 1- Open pom.xml and configure your Java version on these lines:
 ```
 <java.version>17</java.version>
@@ -25,9 +16,7 @@ Solve the following situation: you have a directory with MANY disorganized files
 ```
 2- Via terminal navigate to the Jenamer root directory and run `mvn install`
 
----
-
-### :arrow_forward: How to use
+## How to use :arrow_forward:
 `java -jar [jar path] [first argument] [second argument] [third argument]`
 
 - First argument: full path to the target directory (if there are spaces you must enclose them in quotes)
@@ -36,19 +25,15 @@ Solve the following situation: you have a directory with MANY disorganized files
 
 Command: `java -jar .\target\Jenamer-1.0-SNAPSHOT.jar "C:\Users\vitor\Desktop\Test" file -`
 
----
-
-### :busts_in_silhouette: Do you want help me?
+## Do you want help me? :busts_in_silhouette:
 
 If you have any ideas or wish to contribute to the project, contact me on Twitter @vituohto or send me a pull request! :)
 
----
-
-### :white_flag: License
+## License :white_flag:
 ```
 MIT License
 
-Copyright (c) 2023 @vituohto
+Copyright (c) 2023 Vitu Ohto
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
